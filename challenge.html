@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my git aShopping List</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-4">Shopping List</h1>
+    <div class="flex mb-4">
+      <input type="text" id="new-item" class="w-full rounded-md border border-gray-300 px-3 py-2 mr-2">
+      <button id="add-button" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700">Add</button>
+    </div>
+    <ul id="shopping-list" class="list-none"></ul>
+    <div class="flex mt-4">
+      <button id="mark-purchased" class="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-700 mr-2">Mark Purchased</button>
+      <button id="clear-list" class="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-700">Clear List</button>
+    </div>
+  </div>
+  <script src="challenge.js"></script>
+</body>
+</html>
+
